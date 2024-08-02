@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        CodeSquared: ["Code Squared"],
+        CodeSquared: ["Code-Squared"],
         CallingCode: ["CallingCode-Regular"],
       },
     },

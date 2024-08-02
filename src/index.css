@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Code Squared";
+  font-family: "Code-Squared";
   src: url("Code-Squared.woff") format("woff");
   font-weight: normal;
   font-style: normal;
