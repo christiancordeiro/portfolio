@@ -3,13 +3,19 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: Code Squared;
-  src: url("../public/Code-Squared.ttf") format("opentype");
+  font-family: "Code Squared";
+  src: url("Code-Squared.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
-  font-family: CallingCode-Regular;
-  src: url("../public/CallingCode-Regular.ttf") format("opentype");
+  font-family: "CallingCode-Regular";
+  src: url("CallingCode-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
@@ -311,7 +317,6 @@ div:hover > .pulse-base::before {
   top: 65%;
 }
 
-
 @media (max-width: 800px) {
   .display-grid {
     grid-template-columns: 1fr;
@@ -331,7 +336,6 @@ div:hover > .pulse-base::before {
   position: relative;
   transition: all 0.5s ease-in-out;
 }
-
 
 .preencher::before {
   content: "";
