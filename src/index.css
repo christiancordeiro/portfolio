@@ -3,19 +3,13 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Code-Squared";
+  font-family: "Code Squared";
   src: url("Code-Squared.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 
 @font-face {
-  font-family: "CallingCode-Regular";
+  font-family: "Calling Code Regular";
   src: url("CallingCode-Regular.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 
 body {
