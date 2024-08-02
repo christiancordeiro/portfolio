@@ -4,12 +4,12 @@
 
 @font-face {
   font-family: "Code Squared";
-  src: url("Code-Squared.woff") format("woff");
+  src: url("../public/Code-Squared.woff") format("woff");
 }
 
 @font-face {
   font-family: "Calling Code Regular";
-  src: url("CallingCode-Regular.woff") format("woff");
+  src: url("../public/CallingCode-Regular.woff") format("woff");
 }
 
 body {
