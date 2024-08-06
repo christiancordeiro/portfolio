@@ -36,7 +36,7 @@ const Portfolio = () => {
   const currentProject = listProjectPortfolio[currentIndex]
 
   return (
-    <section className="mt-52 xl:mt-[27rem] relative">
+    <section id="portfolio" className="mt-52 xl:mt-[27rem] relative">
       <div className="flex justify-center items-center">
         <div className="m-auto portfolio">
           <h1 className="font-CodeSquared animated-text">Portfolio</h1>

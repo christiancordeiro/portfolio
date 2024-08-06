@@ -2,7 +2,7 @@ import ConnectCircle from "../Components/Connect/ConnectCircle"
 
 const Connect = () => {
   return (
-    <section className="mt-52 xl:mt-[27rem] relative">
+    <section id="contato" className="mt-52 xl:mt-[27rem] relative">
       <div className="flex justify-center items-center">
         <div className="m-auto portfolio">
           <h1 className="font-CodeSquared animated-text">Contato</h1>

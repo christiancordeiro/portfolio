@@ -138,7 +138,7 @@ li > a:active {
 .portfolio::after {
   content: "";
   position: absolute;
-  font-family: "CallingCode-Regular";
+  font-family: "Calling Code Regular";
   color: #686868;
   font-size: 1.4rem;
 }

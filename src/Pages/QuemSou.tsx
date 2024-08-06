@@ -3,7 +3,7 @@ import vector from "../assets/Vector3.svg"
 
 const QuemSou = () => {
   return (
-    <section className="mt-52 xl:mt-[27rem] relative">
+    <section id="quemSou" className="mt-52 xl:mt-[27rem] relative">
       <div className="flex justify-center items-center">
         <div className="m-auto portfolio">
           <h1 className="font-CodeSquared animated-text">quem sou</h1>

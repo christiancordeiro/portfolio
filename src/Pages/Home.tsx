@@ -3,7 +3,10 @@ import vector from "../assets/Vector3.svg"
 
 const Home = () => {
   return (
-    <main className="grid justify-center grid-cols-1 sm:grid-cols-2  gap-16 lg:gap-24 xl:gap-44 sm:gap-0 items-center mt-24 md:mt-14 relative">
+    <main
+      id="home"
+      className="grid justify-center grid-cols-1 sm:grid-cols-2  gap-16 lg:gap-24 xl:gap-44 sm:gap-0 items-center mt-24 md:mt-14 relative"
+    >
       <div className="font-CallingCode text-base">
         <p className="text-[#686868] mb-4 md:text-xl animated-item">
           &lt;p&gt;
