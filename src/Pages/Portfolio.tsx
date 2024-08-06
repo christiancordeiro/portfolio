@@ -90,7 +90,7 @@ const Portfolio = () => {
             <button
               id="prev"
               onClick={nextPrevButton}
-              className="border-2 rounded-full p-6 transform transition-transform duration-300 hover:scale-150"
+              className="border-2 rounded-full p-6 transform transition-transform duration-300 md:hover:scale-150"
               aria-label="Projeto anterior"
             >
               <img src={Prev} alt="prev" className="w-24 md:w-auto"></img>
@@ -109,7 +109,7 @@ const Portfolio = () => {
             <button
               id="next"
               onClick={nextPrevButton}
-              className="border-2 rounded-full p-6 transform transition-transform duration-300 hover:scale-150"
+              className="border-2 rounded-full p-6 transform transition-transform duration-300 md:hover:scale-150"
               aria-label="Próximo projeto"
             >
               <img src={Next} alt="next" className="w-24 md:w-auto"></img>
